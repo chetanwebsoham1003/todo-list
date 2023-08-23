@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="todo-container">
+        <h1> Todo List</h1>
+        
+        <input id="todo-input" class="todo-input" type="text" placeholder="What needs to be done?" >
+        <ul id="todo-list" class="todo-list"></ul>
+        <div class="todo-controls">
+          <div class="filter-buttons">
+            <button class="filter-button" data-filter="all">All</button>
+            <button class="filter-button" data-filter="active">Active</button>
+            <button class="filter-button" data-filter="completed">Completed</button>
+          </div>
+          <button id="clear-completed">Clear Completed</button>
+        </div>
+      </div>
+      <script src="index.js"></script>
+</body>
+</html>
